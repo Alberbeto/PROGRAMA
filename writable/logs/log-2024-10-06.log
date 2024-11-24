@@ -1,0 +1,86 @@
+INFO - 2024-10-06 21:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-06 21:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-06 21:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-06 21:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-06 22:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-06 22:19:54 --> ParseError: syntax error, unexpected variable "$fecha"
+[Method: GET, Route: ListarCompleta]
+in APPPATH\Models\arancelModel\arancelModelo.php on line 76.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\PROGRAMA\\app\\Models\\arancelModel\\arancelModelo.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\arancelModel\\arancelModelo')
+ 3 APPPATH\Controllers\arancelController\ArancelControlador.php(25): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\arancelModel\\arancelModelo')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\arancelController\ArancelControlador->ListarCenViasController()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\arancelController\ArancelControlador))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-06 22:20:11 --> ParseError: syntax error, unexpected identifier "in"
+[Method: GET, Route: ListarCompleta]
+in APPPATH\Models\arancelModel\arancelModelo.php on line 78.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\PROGRAMA\\app\\Models\\arancelModel\\arancelModelo.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\arancelModel\\arancelModelo')
+ 3 APPPATH\Controllers\arancelController\ArancelControlador.php(25): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\arancelModel\\arancelModelo')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\arancelController\ArancelControlador->ListarCenViasController()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\arancelController\ArancelControlador))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-06 22:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-06 22:31:39 --> ErrorException: Undefined array key "vnombre"
+[Method: GET, Route: ListarCompleta]
+in APPPATH\Views\Mantenimiento\arancelVista.php on line 77.
+ 1 APPPATH\Views\Mantenimiento\arancelVista.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vnombre"', 'C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\arancelVista.php', 77)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\arancelVista.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Mantenimiento/arancelVista', [], true)
+ 5 APPPATH\Controllers\arancelController\ArancelControlador.php(31): view('Mantenimiento/arancelVista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\arancelController\ArancelControlador->ListarCenViasController()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\arancelController\ArancelControlador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-06 22:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-06 22:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-06 22:38:14 --> ErrorException: Undefined array key "idsigma"
+[Method: GET, Route: ListarCompleta]
+in APPPATH\Views\Mantenimiento\arancelVista.php on line 90.
+ 1 APPPATH\Views\Mantenimiento\arancelVista.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idsigma"', 'C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\arancelVista.php', 90)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\arancelVista.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Mantenimiento/arancelVista', [], true)
+ 5 APPPATH\Controllers\arancelController\ArancelControlador.php(31): view('Mantenimiento/arancelVista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\arancelController\ArancelControlador->ListarCenViasController()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\arancelController\ArancelControlador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-06 22:38:57 --> ErrorException: Undefined array key "mbre"
+[Method: GET, Route: ListarCompleta]
+in APPPATH\Views\Mantenimiento\arancelVista.php on line 77.
+ 1 APPPATH\Views\Mantenimiento\arancelVista.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mbre"', 'C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\arancelVista.php', 77)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\arancelVista.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Mantenimiento/arancelVista', [], true)
+ 5 APPPATH\Controllers\arancelController\ArancelControlador.php(31): view('Mantenimiento/arancelVista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\arancelController\ArancelControlador->ListarCenViasController()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\arancelController\ArancelControlador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-06 22:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-06 22:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-06 22:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-06 22:39:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-06 22:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-06 22:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-06 22:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-06 22:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-06 22:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-06 23:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-06 23:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-06 23:46:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

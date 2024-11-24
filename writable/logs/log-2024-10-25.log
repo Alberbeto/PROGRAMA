@@ -1,0 +1,91 @@
+INFO - 2024-10-25 03:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 03:22:30 --> ErrorException: Array to string conversion
+[Method: GET, Route: personas]
+in APPPATH\Views\Mantenimiento\personasVista.php on line 184.
+ 1 APPPATH\Views\Mantenimiento\personasVista.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\personasVista.php', 184)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\personasVista.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Mantenimiento/personasvista', [], true)
+ 5 APPPATH\Controllers\personasController\PersonasControlador.php(36): view('Mantenimiento/personasvista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\personasController\PersonasControlador->ListarPersonasController()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\personasController\PersonasControlador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-25 03:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 03:40:51 --> ErrorException: Undefined variable $anio
+[Method: GET, Route: personas]
+in APPPATH\Views\Mantenimiento\personasVista.php on line 197.
+ 1 APPPATH\Views\Mantenimiento\personasVista.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $anio', 'C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\personasVista.php', 197)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\personasVista.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Mantenimiento/personasvista', [], true)
+ 5 APPPATH\Controllers\personasController\PersonasControlador.php(37): view('Mantenimiento/personasvista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\personasController\PersonasControlador->ListarPersonasController()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\personasController\PersonasControlador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-25 03:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 03:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 04:01:21 --> ErrorException: Undefined array key "idsigma"
+[Method: GET, Route: personas]
+in APPPATH\Views\Mantenimiento\personasVista.php on line 98.
+ 1 APPPATH\Views\Mantenimiento\personasVista.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idsigma"', 'C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\personasVista.php', 98)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\personasVista.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Mantenimiento/personasvista', [], true)
+ 5 APPPATH\Controllers\personasController\PersonasControlador.php(38): view('Mantenimiento/personasvista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\personasController\PersonasControlador->ListarPersonasController()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\personasController\PersonasControlador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-25 04:02:33 --> ErrorException: Array to string conversion
+[Method: GET, Route: personas]
+in APPPATH\Views\Mantenimiento\personasVista.php on line 98.
+ 1 APPPATH\Views\Mantenimiento\personasVista.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\personasVista.php', 98)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\personasVista.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Mantenimiento/personasvista', [], true)
+ 5 APPPATH\Controllers\personasController\PersonasControlador.php(38): view('Mantenimiento/personasvista', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\personasController\PersonasControlador->ListarPersonasController()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\personasController\PersonasControlador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-25 04:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 04:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 04:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 04:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 04:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 04:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 04:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 04:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 04:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 04:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 04:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-25 04:19:34 --> ParseError: syntax error, unexpected token ","
+[Method: GET, Route: personas]
+in APPPATH\Models\personasModel\personasModelo.php on line 81.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\PROGRAMA\\app\\Models\\personasModel\\personasModelo.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\personasModel\\personasModelo')
+ 3 APPPATH\Controllers\personasController\PersonasControlador.php(24): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\personasModel\\personasModelo')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\personasController\PersonasControlador->ListarPersonasController()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\personasController\PersonasControlador))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-10-25 04:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 04:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 04:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 04:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 04:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-25 04:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

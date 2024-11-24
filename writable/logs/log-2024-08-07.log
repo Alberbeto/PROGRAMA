@@ -1,0 +1,381 @@
+CRITICAL - 2024-08-07 16:53:45 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: centro]
+in APPPATH\Views\Mantenimiento\centroPoblado.php on line 83.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Mantenimiento/centroPoblado', [], true)
+ 3 APPPATH\Controllers\Autentificacion.php(33): view('Mantenimiento/centroPoblado')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Autentificacion->centroPoblado()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autentificacion))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-07 16:54:28 --> ErrorException: Undefined variable $sectores
+[Method: GET, Route: centro]
+in APPPATH\Views\Mantenimiento\centroPoblado.php on line 46.
+ 1 APPPATH\Views\Mantenimiento\centroPoblado.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sectores', 'C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Mantenimiento/centroPoblado', [], true)
+ 5 APPPATH\Controllers\Autentificacion.php(33): view('Mantenimiento/centroPoblado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Autentificacion->centroPoblado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autentificacion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-07 16:58:27 --> ErrorException: Undefined variable $sectores
+[Method: GET, Route: centro]
+in APPPATH\Views\Mantenimiento\centroPoblado.php on line 46.
+ 1 APPPATH\Views\Mantenimiento\centroPoblado.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sectores', 'C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Mantenimiento/centroPoblado', [], true)
+ 5 APPPATH\Controllers\Autentificacion.php(33): view('Mantenimiento/centroPoblado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Autentificacion->centroPoblado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autentificacion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-07 16:58:28 --> ErrorException: Undefined variable $sectores
+[Method: GET, Route: centro]
+in APPPATH\Views\Mantenimiento\centroPoblado.php on line 46.
+ 1 APPPATH\Views\Mantenimiento\centroPoblado.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sectores', 'C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Mantenimiento/centroPoblado', [], true)
+ 5 APPPATH\Controllers\Autentificacion.php(33): view('Mantenimiento/centroPoblado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Autentificacion->centroPoblado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autentificacion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-07 16:58:30 --> ErrorException: Undefined variable $sectores
+[Method: GET, Route: centro]
+in APPPATH\Views\Mantenimiento\centroPoblado.php on line 46.
+ 1 APPPATH\Views\Mantenimiento\centroPoblado.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sectores', 'C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php', 46)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Mantenimiento/centroPoblado', [], true)
+ 5 APPPATH\Controllers\Autentificacion.php(33): view('Mantenimiento/centroPoblado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Autentificacion->centroPoblado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autentificacion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-07 17:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 17:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 17:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 17:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 17:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 17:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 17:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 17:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 17:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 17:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 17:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 17:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 17:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 17:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 17:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 17:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-07 17:55:23 --> ErrorException: Undefined variable $sectores
+[Method: GET, Route: centro]
+in APPPATH\Views\Mantenimiento\centroPoblado.php on line 49.
+ 1 APPPATH\Views\Mantenimiento\centroPoblado.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sectores', 'C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php', 49)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Mantenimiento/centroPoblado', [], true)
+ 5 APPPATH\Controllers\Autentificacion.php(33): view('Mantenimiento/centroPoblado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Autentificacion->centroPoblado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autentificacion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-07 21:13:17 --> ErrorException: Undefined variable $sectores
+[Method: GET, Route: centro]
+in APPPATH\Views\Mantenimiento\centroPoblado.php on line 49.
+ 1 APPPATH\Views\Mantenimiento\centroPoblado.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sectores', 'C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php', 49)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Mantenimiento/centroPoblado', [], true)
+ 5 APPPATH\Controllers\Autentificacion.php(33): view('Mantenimiento/centroPoblado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Autentificacion->centroPoblado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autentificacion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-07 21:13:18 --> ErrorException: Undefined variable $sectores
+[Method: GET, Route: centro]
+in APPPATH\Views\Mantenimiento\centroPoblado.php on line 49.
+ 1 APPPATH\Views\Mantenimiento\centroPoblado.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sectores', 'C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php', 49)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Mantenimiento/centroPoblado', [], true)
+ 5 APPPATH\Controllers\Autentificacion.php(33): view('Mantenimiento/centroPoblado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Autentificacion->centroPoblado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autentificacion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-07 21:13:18 --> ErrorException: Undefined variable $sectores
+[Method: GET, Route: centro]
+in APPPATH\Views\Mantenimiento\centroPoblado.php on line 49.
+ 1 APPPATH\Views\Mantenimiento\centroPoblado.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sectores', 'C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php', 49)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Mantenimiento/centroPoblado', [], true)
+ 5 APPPATH\Controllers\Autentificacion.php(33): view('Mantenimiento/centroPoblado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Autentificacion->centroPoblado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autentificacion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-07 21:13:18 --> ErrorException: Undefined variable $sectores
+[Method: GET, Route: centro]
+in APPPATH\Views\Mantenimiento\centroPoblado.php on line 49.
+ 1 APPPATH\Views\Mantenimiento\centroPoblado.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sectores', 'C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php', 49)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Mantenimiento/centroPoblado', [], true)
+ 5 APPPATH\Controllers\Autentificacion.php(33): view('Mantenimiento/centroPoblado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Autentificacion->centroPoblado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autentificacion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-07 21:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 21:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 21:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 21:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 21:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 21:14:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 21:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 21:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 21:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 21:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 21:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 21:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 21:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 21:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-07 21:48:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "centroPoblado.php"
+[Method: GET, Route: sectores]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('centroPoblado.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('centroPoblado', [], true)
+ 3 APPPATH\Controllers\Autentificacion.php(81): view('centroPoblado', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Autentificacion->valoresSector()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autentificacion))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-07 21:48:54 --> ErrorException: Attempt to read property "cid_sector" on array
+[Method: GET, Route: sectores]
+in APPPATH\Views\Mantenimiento\centroPoblado.php on line 54.
+ 1 APPPATH\Views\Mantenimiento\centroPoblado.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cid_sector" on array', 'C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Mantenimiento/centroPoblado', [], true)
+ 5 APPPATH\Controllers\Autentificacion.php(81): view('Mantenimiento/centroPoblado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Autentificacion->valoresSector()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autentificacion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-07 21:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 21:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-07 22:08:53 --> ErrorException: Undefined variable $sectores
+[Method: GET, Route: centro]
+in APPPATH\Views\Mantenimiento\centroPoblado.php on line 16.
+ 1 APPPATH\Views\Mantenimiento\centroPoblado.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sectores', 'C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Mantenimiento/centroPoblado', [], true)
+ 5 APPPATH\Controllers\Autentificacion.php(33): view('Mantenimiento/centroPoblado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Autentificacion->centroPoblado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autentificacion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-07 22:09:40 --> ErrorException: Undefined variable $sectores
+[Method: GET, Route: centro]
+in APPPATH\Views\Mantenimiento\centroPoblado.php on line 16.
+ 1 APPPATH\Views\Mantenimiento\centroPoblado.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sectores', 'C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Mantenimiento/centroPoblado', [], true)
+ 5 APPPATH\Controllers\Autentificacion.php(33): view('Mantenimiento/centroPoblado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Autentificacion->centroPoblado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autentificacion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-07 22:09:42 --> ErrorException: Undefined variable $sectores
+[Method: GET, Route: centro]
+in APPPATH\Views\Mantenimiento\centroPoblado.php on line 16.
+ 1 APPPATH\Views\Mantenimiento\centroPoblado.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sectores', 'C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Mantenimiento/centroPoblado', [], true)
+ 5 APPPATH\Controllers\Autentificacion.php(33): view('Mantenimiento/centroPoblado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Autentificacion->centroPoblado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autentificacion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-07 22:09:42 --> ErrorException: Undefined variable $sectores
+[Method: GET, Route: centro]
+in APPPATH\Views\Mantenimiento\centroPoblado.php on line 16.
+ 1 APPPATH\Views\Mantenimiento\centroPoblado.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sectores', 'C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Mantenimiento/centroPoblado', [], true)
+ 5 APPPATH\Controllers\Autentificacion.php(33): view('Mantenimiento/centroPoblado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Autentificacion->centroPoblado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autentificacion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-07 22:09:42 --> ErrorException: Undefined variable $sectores
+[Method: GET, Route: centro]
+in APPPATH\Views\Mantenimiento\centroPoblado.php on line 16.
+ 1 APPPATH\Views\Mantenimiento\centroPoblado.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sectores', 'C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Mantenimiento/centroPoblado', [], true)
+ 5 APPPATH\Controllers\Autentificacion.php(33): view('Mantenimiento/centroPoblado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Autentificacion->centroPoblado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autentificacion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-07 22:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:11:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-07 22:40:23 --> ErrorException: Undefined variable $tipos
+[Method: GET, Route: centroPoblado]
+in APPPATH\Views\Mantenimiento\centroPoblado.php on line 15.
+ 1 APPPATH\Views\Mantenimiento\centroPoblado.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipos', 'C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Mantenimiento/centroPoblado', [], true)
+ 5 APPPATH\Controllers\Autentificacion.php(81): view('Mantenimiento/centroPoblado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Autentificacion->valoresSector()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autentificacion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-07 22:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-07 22:41:24 --> ErrorException: Undefined variable $tipos
+[Method: GET, Route: centroPoblado]
+in APPPATH\Views\Mantenimiento\centroPoblado.php on line 15.
+ 1 APPPATH\Views\Mantenimiento\centroPoblado.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipos', 'C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Mantenimiento/centroPoblado', [], true)
+ 5 APPPATH\Controllers\Autentificacion.php(81): view('Mantenimiento/centroPoblado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Autentificacion->valoresSector()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autentificacion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-07 22:41:41 --> ErrorException: Undefined variable $tipos
+[Method: GET, Route: centroPoblado]
+in APPPATH\Views\Mantenimiento\centroPoblado.php on line 15.
+ 1 APPPATH\Views\Mantenimiento\centroPoblado.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipos', 'C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Mantenimiento/centroPoblado', [], true)
+ 5 APPPATH\Controllers\Autentificacion.php(81): view('Mantenimiento/centroPoblado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Autentificacion->valoresSector()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autentificacion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-07 22:41:45 --> ErrorException: Undefined variable $tipos
+[Method: GET, Route: centro]
+in APPPATH\Views\Mantenimiento\centroPoblado.php on line 15.
+ 1 APPPATH\Views\Mantenimiento\centroPoblado.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipos', 'C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Mantenimiento/centroPoblado', [], true)
+ 5 APPPATH\Controllers\Autentificacion.php(33): view('Mantenimiento/centroPoblado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Autentificacion->centroPoblado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autentificacion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-07 22:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:42:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-07 22:42:03 --> ErrorException: Undefined variable $tipos
+[Method: GET, Route: centro]
+in APPPATH\Views\Mantenimiento\centroPoblado.php on line 15.
+ 1 APPPATH\Views\Mantenimiento\centroPoblado.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipos', 'C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\PROGRAMA\\app\\Views\\Mantenimiento\\centroPoblado.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Mantenimiento/centroPoblado', [], true)
+ 5 APPPATH\Controllers\Autentificacion.php(33): view('Mantenimiento/centroPoblado')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Autentificacion->centroPoblado()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Autentificacion))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-07 22:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 22:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

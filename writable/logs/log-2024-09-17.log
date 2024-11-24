@@ -1,0 +1,215 @@
+INFO - 2024-09-17 00:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 00:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 00:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 00:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 00:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 00:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 00:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-17 03:19:17 --> ParseError: syntax error, unexpected token "return", expecting "," or ";"
+[Method: GET, Route: ListarCompleta]
+in APPPATH\Controllers\arancelController\ArancelControlador.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\PROGRAMA\\app\\Controllers\\arancelController\\ArancelControlador.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\arancelController\\ArancelControlador')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\arancelController\\ArancelControlador')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\arancelController\\ArancelControlador', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 03:19:37 --> ParseError: syntax error, unexpected token "}", expecting "," or ";"
+[Method: GET, Route: ListarCompleta]
+in APPPATH\Controllers\arancelController\ArancelControlador.php on line 26.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\PROGRAMA\\app\\Controllers\\arancelController\\ArancelControlador.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\arancelController\\ArancelControlador')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\arancelController\\ArancelControlador')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\arancelController\\ArancelControlador', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 03:19:59 --> ParseError: syntax error, unexpected token "}", expecting "," or ";"
+[Method: GET, Route: ListarCompleta]
+in APPPATH\Controllers\arancelController\ArancelControlador.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\PROGRAMA\\app\\Controllers\\arancelController\\ArancelControlador.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\arancelController\\ArancelControlador')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\arancelController\\ArancelControlador')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\arancelController\\ArancelControlador', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-17 04:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 04:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 04:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 04:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 04:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 04:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 04:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 04:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 04:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 04:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 04:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 04:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 04:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 04:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 04:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 04:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 20:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 20:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 20:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 20:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 20:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 20:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 20:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 20:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 20:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 20:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 20:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 20:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 20:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 20:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 21:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 21:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 21:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 21:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 21:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 21:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 21:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 21:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 21:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 21:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 21:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-17 21:55:07 --> ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «::»
+LINE 2: ...         v.idsigma as codigo_via,a.narance as Pred::INTEGER,...
+                                                             ^ in C:\laragon\www\PROGRAMA\system\Database\Postgre\Connection.php:206
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 206)
+#1 C:\laragon\www\PROGRAMA\system\Database\Postgre\Connection.php(206): pg_query(Object(PgSql\Connection), 'select  distinc...')
+#2 C:\laragon\www\PROGRAMA\system\Database\BaseConnection.php(734): CodeIgniter\Database\Postgre\Connection->execute('select  distinc...')
+#3 C:\laragon\www\PROGRAMA\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select  distinc...')
+#4 C:\laragon\www\PROGRAMA\app\Models\arancelModel\arancelModelo.php(12): CodeIgniter\Database\BaseConnection->query('select  distinc...')
+#5 C:\laragon\www\PROGRAMA\app\Controllers\arancelController\ArancelControlador.php(18): App\Models\arancelModel\arancelModelo->ListarCentViasModel()
+#6 C:\laragon\www\PROGRAMA\system\CodeIgniter.php(933): App\Controllers\arancelController\ArancelControlador->ListarCenViasController()
+#7 C:\laragon\www\PROGRAMA\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\arancelController\ArancelControlador))
+#8 C:\laragon\www\PROGRAMA\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\PROGRAMA\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\PROGRAMA\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\PROGRAMA\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-09-17 21:55:07 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «::»
+LINE 2: ...         v.idsigma as codigo_via,a.narance as Pred::INTEGER,...
+                                                             ^
+[Method: GET, Route: ListarCompleta]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\arancelModel\arancelModelo.php(12): CodeIgniter\Database\BaseConnection->query('select  distinct a.idsigma ,m.idsigma as codigo,concat(n.vobserv ,\' - \',m.vnombre) as centro_poblado,
+                v.idsigma as codigo_via,a.narance as Pred::INTEGER,concat(n.vobserv ,\' - \',v.vnombre) as via from registro.mpoblad m
+                inner join public.mconten n
+                on m.ctipcen = n.idsigma 
+                inner join registro.marance1 a
+                on a.mpoblad = m.idsigma 
+                inner join registro.mviadis v
+                on a.mviadis = v.idsigma 
+                order by m.idsigma asc')
+ 2 APPPATH\Controllers\arancelController\ArancelControlador.php(18): App\Models\arancelModel\arancelModelo->ListarCentViasModel()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\arancelController\ArancelControlador->ListarCenViasController()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\arancelController\ArancelControlador))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 21:55:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «::»
+LINE 2: ...         v.idsigma as codigo_via,a.narance as Pred::INTEGER,...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 211.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\Postgre\Connection->execute('select  distinct a.idsigma ,m.idsigma as codigo,concat(n.vobserv ,\' - \',m.vnombre) as centro_poblado,
+                v.idsigma as codigo_via,a.narance as Pred::INTEGER,concat(n.vobserv ,\' - \',v.vnombre) as via from registro.mpoblad m
+                inner join public.mconten n
+                on m.ctipcen = n.idsigma 
+                inner join registro.marance1 a
+                on a.mpoblad = m.idsigma 
+                inner join registro.mviadis v
+                on a.mviadis = v.idsigma 
+                order by m.idsigma asc')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select  distinct a.idsigma ,m.idsigma as codigo,concat(n.vobserv ,\' - \',m.vnombre) as centro_poblado,
+                v.idsigma as codigo_via,a.narance as Pred::INTEGER,concat(n.vobserv ,\' - \',v.vnombre) as via from registro.mpoblad m
+                inner join public.mconten n
+                on m.ctipcen = n.idsigma 
+                inner join registro.marance1 a
+                on a.mpoblad = m.idsigma 
+                inner join registro.mviadis v
+                on a.mviadis = v.idsigma 
+                order by m.idsigma asc')
+ 3 APPPATH\Models\arancelModel\arancelModelo.php(12): CodeIgniter\Database\BaseConnection->query('select  distinct a.idsigma ,m.idsigma as codigo,concat(n.vobserv ,\' - \',m.vnombre) as centro_poblado,
+                v.idsigma as codigo_via,a.narance as Pred::INTEGER,concat(n.vobserv ,\' - \',v.vnombre) as via from registro.mpoblad m
+                inner join public.mconten n
+                on m.ctipcen = n.idsigma 
+                inner join registro.marance1 a
+                on a.mpoblad = m.idsigma 
+                inner join registro.mviadis v
+                on a.mviadis = v.idsigma 
+                order by m.idsigma asc')
+ 4 APPPATH\Controllers\arancelController\ArancelControlador.php(18): App\Models\arancelModel\arancelModelo->ListarCentViasModel()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\arancelController\ArancelControlador->ListarCenViasController()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\arancelController\ArancelControlador))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-17 21:55:07 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «::»
+LINE 2: ...         v.idsigma as codigo_via,a.narance as Pred::INTEGER,...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 206.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «::»
+LINE 2: ...         v.idsigma as codigo_via,a.narance as Pred::INTEGER,...
+                                                             ^', 'C:\\laragon\\www\\PROGRAMA\\system\\Database\\Postgre\\Connection.php', 206)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(206): pg_query(Object(PgSql\Connection), 'select  distinct a.idsigma ,m.idsigma as codigo,concat(n.vobserv ,\' - \',m.vnombre) as centro_poblado,
+                v.idsigma as codigo_via,a.narance as Pred::INTEGER,concat(n.vobserv ,\' - \',v.vnombre) as via from registro.mpoblad m
+                inner join public.mconten n
+                on m.ctipcen = n.idsigma 
+                inner join registro.marance1 a
+                on a.mpoblad = m.idsigma 
+                inner join registro.mviadis v
+                on a.mviadis = v.idsigma 
+                order by m.idsigma asc')
+ 3 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\Postgre\Connection->execute('select  distinct a.idsigma ,m.idsigma as codigo,concat(n.vobserv ,\' - \',m.vnombre) as centro_poblado,
+                v.idsigma as codigo_via,a.narance as Pred::INTEGER,concat(n.vobserv ,\' - \',v.vnombre) as via from registro.mpoblad m
+                inner join public.mconten n
+                on m.ctipcen = n.idsigma 
+                inner join registro.marance1 a
+                on a.mpoblad = m.idsigma 
+                inner join registro.mviadis v
+                on a.mviadis = v.idsigma 
+                order by m.idsigma asc')
+ 4 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select  distinct a.idsigma ,m.idsigma as codigo,concat(n.vobserv ,\' - \',m.vnombre) as centro_poblado,
+                v.idsigma as codigo_via,a.narance as Pred::INTEGER,concat(n.vobserv ,\' - \',v.vnombre) as via from registro.mpoblad m
+                inner join public.mconten n
+                on m.ctipcen = n.idsigma 
+                inner join registro.marance1 a
+                on a.mpoblad = m.idsigma 
+                inner join registro.mviadis v
+                on a.mviadis = v.idsigma 
+                order by m.idsigma asc')
+ 5 APPPATH\Models\arancelModel\arancelModelo.php(12): CodeIgniter\Database\BaseConnection->query('select  distinct a.idsigma ,m.idsigma as codigo,concat(n.vobserv ,\' - \',m.vnombre) as centro_poblado,
+                v.idsigma as codigo_via,a.narance as Pred::INTEGER,concat(n.vobserv ,\' - \',v.vnombre) as via from registro.mpoblad m
+                inner join public.mconten n
+                on m.ctipcen = n.idsigma 
+                inner join registro.marance1 a
+                on a.mpoblad = m.idsigma 
+                inner join registro.mviadis v
+                on a.mviadis = v.idsigma 
+                order by m.idsigma asc')
+ 6 APPPATH\Controllers\arancelController\ArancelControlador.php(18): App\Models\arancelModel\arancelModelo->ListarCentViasModel()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\arancelController\ArancelControlador->ListarCenViasController()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\arancelController\ArancelControlador))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-17 21:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 22:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 22:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 22:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-17 22:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

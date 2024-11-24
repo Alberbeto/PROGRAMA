@@ -1,0 +1,777 @@
+INFO - 2024-09-14 22:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 22:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 22:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 22:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 22:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 22:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-14 22:47:32 --> Error: Class "App\Controllers\viasController\viasModelos" not found
+[Method: POST, Route: InsertarVia]
+in APPPATH\Controllers\viasController\ViasControlador.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->InsertarVia()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-14 22:49:25 --> Error: Class "App\Controllers\viasController\viasModelo" not found
+[Method: GET, Route: vias]
+in APPPATH\Controllers\viasController\ViasControlador.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->Vias()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-14 22:49:57 --> Error: Class "App\Models\viasModel" not found
+[Method: GET, Route: vias]
+in APPPATH\Controllers\viasController\ViasControlador.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->Vias()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-14 22:49:58 --> Error: Class "App\Models\viasModel" not found
+[Method: GET, Route: vias]
+in APPPATH\Controllers\viasController\ViasControlador.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->Vias()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-14 22:49:59 --> Error: Class "App\Models\viasModel" not found
+[Method: GET, Route: vias]
+in APPPATH\Controllers\viasController\ViasControlador.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->Vias()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-14 22:49:59 --> Error: Class "App\Models\viasModel" not found
+[Method: GET, Route: vias]
+in APPPATH\Controllers\viasController\ViasControlador.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->Vias()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-14 22:49:59 --> Error: Class "App\Models\viasModel" not found
+[Method: GET, Route: vias]
+in APPPATH\Controllers\viasController\ViasControlador.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->Vias()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-14 22:49:59 --> Error: Class "App\Models\viasModel" not found
+[Method: GET, Route: vias]
+in APPPATH\Controllers\viasController\ViasControlador.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->Vias()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-14 22:50:00 --> Error: Class "App\Models\viasModel" not found
+[Method: GET, Route: vias]
+in APPPATH\Controllers\viasController\ViasControlador.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->Vias()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-14 22:50:00 --> Error: Class "App\Models\viasModel" not found
+[Method: GET, Route: vias]
+in APPPATH\Controllers\viasController\ViasControlador.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->Vias()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-14 22:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 22:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-14 22:50:34 --> ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 2: FROM &quot;select * from&quot; &quot;registro&quot;.&quot;mviadis&quot;
+                                       ^ in C:\laragon\www\PROGRAMA\system\Database\Postgre\Connection.php:206
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 206)
+#1 C:\laragon\www\PROGRAMA\system\Database\Postgre\Connection.php(206): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\laragon\www\PROGRAMA\system\Database\BaseConnection.php(734): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\laragon\www\PROGRAMA\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\laragon\www\PROGRAMA\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\laragon\www\PROGRAMA\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\laragon\www\PROGRAMA\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#7 C:\laragon\www\PROGRAMA\app\Models\viasModel\viasModelo.php(56): CodeIgniter\BaseModel->first()
+#8 C:\laragon\www\PROGRAMA\app\Controllers\viasController\ViasControlador.php(56): App\Models\viasModel\viasModelo->InsertarNuevaVia(Array)
+#9 C:\laragon\www\PROGRAMA\system\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->InsertarVia()
+#10 C:\laragon\www\PROGRAMA\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+#11 C:\laragon\www\PROGRAMA\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\PROGRAMA\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\PROGRAMA\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\laragon\www\PROGRAMA\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-09-14 22:50:34 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 2: FROM &quot;select * from&quot; &quot;registro&quot;.&quot;mviadis&quot;
+                                       ^
+[Method: POST, Route: InsertarVia]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "select * from" "registro"."mviadis"
+ORDER BY "idesigma" DESC
+ LIMIT 1', [], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\viasModel\viasModelo.php(56): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\viasController\ViasControlador.php(56): App\Models\viasModel\viasModelo->InsertarNuevaVia([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->InsertarVia()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-14 22:50:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 2: FROM &quot;select * from&quot; &quot;registro&quot;.&quot;mviadis&quot;
+                                       ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 211.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "select * from" "registro"."mviadis"
+ORDER BY "idesigma" DESC
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "select * from" "registro"."mviadis"
+ORDER BY "idesigma" DESC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "select * from" "registro"."mviadis"
+ORDER BY "idesigma" DESC
+ LIMIT 1', [], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Models\viasModel\viasModelo.php(56): CodeIgniter\BaseModel->first()
+ 7 APPPATH\Controllers\viasController\ViasControlador.php(56): App\Models\viasModel\viasModelo->InsertarNuevaVia([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->InsertarVia()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-14 22:50:34 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 2: FROM &quot;select * from&quot; &quot;registro&quot;.&quot;mviadis&quot;
+                                       ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 206.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 2: FROM &quot;select * from&quot; &quot;registro&quot;.&quot;mviadis&quot;
+                                       ^', 'C:\\laragon\\www\\PROGRAMA\\system\\Database\\Postgre\\Connection.php', 206)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(206): pg_query(Object(PgSql\Connection), 'SELECT *
+FROM "select * from" "registro"."mviadis"
+ORDER BY "idesigma" DESC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "select * from" "registro"."mviadis"
+ORDER BY "idesigma" DESC
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "select * from" "registro"."mviadis"
+ORDER BY "idesigma" DESC
+ LIMIT 1')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "select * from" "registro"."mviadis"
+ORDER BY "idesigma" DESC
+ LIMIT 1', [], false)
+ 6 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 8 APPPATH\Models\viasModel\viasModelo.php(56): CodeIgniter\BaseModel->first()
+ 9 APPPATH\Controllers\viasController\ViasControlador.php(56): App\Models\viasModel\viasModelo->InsertarNuevaVia([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->InsertarVia()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-14 22:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 22:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 22:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 22:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 22:55:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-14 22:55:41 --> ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 2: FROM &quot;select * from&quot; &quot;registro&quot;.&quot;mviadis&quot;
+                                       ^ in C:\laragon\www\PROGRAMA\system\Database\Postgre\Connection.php:206
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 206)
+#1 C:\laragon\www\PROGRAMA\system\Database\Postgre\Connection.php(206): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\laragon\www\PROGRAMA\system\Database\BaseConnection.php(734): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\laragon\www\PROGRAMA\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\laragon\www\PROGRAMA\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\laragon\www\PROGRAMA\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\laragon\www\PROGRAMA\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#7 C:\laragon\www\PROGRAMA\app\Models\viasModel\viasModelo.php(56): CodeIgniter\BaseModel->first()
+#8 C:\laragon\www\PROGRAMA\app\Controllers\viasController\ViasControlador.php(56): App\Models\viasModel\viasModelo->InsertarNuevaVia(Array)
+#9 C:\laragon\www\PROGRAMA\system\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->InsertarVia()
+#10 C:\laragon\www\PROGRAMA\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+#11 C:\laragon\www\PROGRAMA\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\PROGRAMA\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\PROGRAMA\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\laragon\www\PROGRAMA\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-09-14 22:55:41 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 2: FROM &quot;select * from&quot; &quot;registro&quot;.&quot;mviadis&quot;
+                                       ^
+[Method: POST, Route: InsertarVia]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "select * from" "registro"."mviadis"
+ORDER BY "idesigma" DESC
+ LIMIT 1', [], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\viasModel\viasModelo.php(56): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\viasController\ViasControlador.php(56): App\Models\viasModel\viasModelo->InsertarNuevaVia([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->InsertarVia()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-14 22:55:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 2: FROM &quot;select * from&quot; &quot;registro&quot;.&quot;mviadis&quot;
+                                       ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 211.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "select * from" "registro"."mviadis"
+ORDER BY "idesigma" DESC
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "select * from" "registro"."mviadis"
+ORDER BY "idesigma" DESC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "select * from" "registro"."mviadis"
+ORDER BY "idesigma" DESC
+ LIMIT 1', [], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Models\viasModel\viasModelo.php(56): CodeIgniter\BaseModel->first()
+ 7 APPPATH\Controllers\viasController\ViasControlador.php(56): App\Models\viasModel\viasModelo->InsertarNuevaVia([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->InsertarVia()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-14 22:55:41 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 2: FROM &quot;select * from&quot; &quot;registro&quot;.&quot;mviadis&quot;
+                                       ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 206.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 2: FROM &quot;select * from&quot; &quot;registro&quot;.&quot;mviadis&quot;
+                                       ^', 'C:\\laragon\\www\\PROGRAMA\\system\\Database\\Postgre\\Connection.php', 206)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(206): pg_query(Object(PgSql\Connection), 'SELECT *
+FROM "select * from" "registro"."mviadis"
+ORDER BY "idesigma" DESC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "select * from" "registro"."mviadis"
+ORDER BY "idesigma" DESC
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "select * from" "registro"."mviadis"
+ORDER BY "idesigma" DESC
+ LIMIT 1')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "select * from" "registro"."mviadis"
+ORDER BY "idesigma" DESC
+ LIMIT 1', [], false)
+ 6 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 8 APPPATH\Models\viasModel\viasModelo.php(56): CodeIgniter\BaseModel->first()
+ 9 APPPATH\Controllers\viasController\ViasControlador.php(56): App\Models\viasModel\viasModelo->InsertarNuevaVia([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->InsertarVia()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-14 22:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 22:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 22:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 22:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-14 22:57:27 --> ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 2: FROM &quot;select * from&quot; &quot;registro&quot;.&quot;mviadis&quot;
+                                       ^ in C:\laragon\www\PROGRAMA\system\Database\Postgre\Connection.php:206
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 206)
+#1 C:\laragon\www\PROGRAMA\system\Database\Postgre\Connection.php(206): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\laragon\www\PROGRAMA\system\Database\BaseConnection.php(734): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\laragon\www\PROGRAMA\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\laragon\www\PROGRAMA\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\laragon\www\PROGRAMA\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\laragon\www\PROGRAMA\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#7 C:\laragon\www\PROGRAMA\app\Models\viasModel\viasModelo.php(56): CodeIgniter\BaseModel->first()
+#8 C:\laragon\www\PROGRAMA\app\Controllers\viasController\ViasControlador.php(56): App\Models\viasModel\viasModelo->InsertarNuevaVia(Array)
+#9 C:\laragon\www\PROGRAMA\system\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->InsertarVia()
+#10 C:\laragon\www\PROGRAMA\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+#11 C:\laragon\www\PROGRAMA\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\PROGRAMA\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\PROGRAMA\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\laragon\www\PROGRAMA\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-09-14 22:57:27 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 2: FROM &quot;select * from&quot; &quot;registro&quot;.&quot;mviadis&quot;
+                                       ^
+[Method: POST, Route: InsertarVia]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "select * from" "registro"."mviadis"
+ORDER BY "idesigma" DESC
+ LIMIT 1', [], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\viasModel\viasModelo.php(56): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\viasController\ViasControlador.php(56): App\Models\viasModel\viasModelo->InsertarNuevaVia([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->InsertarVia()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-14 22:57:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 2: FROM &quot;select * from&quot; &quot;registro&quot;.&quot;mviadis&quot;
+                                       ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 211.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "select * from" "registro"."mviadis"
+ORDER BY "idesigma" DESC
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "select * from" "registro"."mviadis"
+ORDER BY "idesigma" DESC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "select * from" "registro"."mviadis"
+ORDER BY "idesigma" DESC
+ LIMIT 1', [], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Models\viasModel\viasModelo.php(56): CodeIgniter\BaseModel->first()
+ 7 APPPATH\Controllers\viasController\ViasControlador.php(56): App\Models\viasModel\viasModelo->InsertarNuevaVia([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->InsertarVia()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-14 22:57:27 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 2: FROM &quot;select * from&quot; &quot;registro&quot;.&quot;mviadis&quot;
+                                       ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 206.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 2: FROM &quot;select * from&quot; &quot;registro&quot;.&quot;mviadis&quot;
+                                       ^', 'C:\\laragon\\www\\PROGRAMA\\system\\Database\\Postgre\\Connection.php', 206)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(206): pg_query(Object(PgSql\Connection), 'SELECT *
+FROM "select * from" "registro"."mviadis"
+ORDER BY "idesigma" DESC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "select * from" "registro"."mviadis"
+ORDER BY "idesigma" DESC
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "select * from" "registro"."mviadis"
+ORDER BY "idesigma" DESC
+ LIMIT 1')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "select * from" "registro"."mviadis"
+ORDER BY "idesigma" DESC
+ LIMIT 1', [], false)
+ 6 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 8 APPPATH\Models\viasModel\viasModelo.php(56): CodeIgniter\BaseModel->first()
+ 9 APPPATH\Controllers\viasController\ViasControlador.php(56): App\Models\viasModel\viasModelo->InsertarNuevaVia([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->InsertarVia()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-14 22:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 22:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-14 22:59:10 --> ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 2: FROM &quot;select * from&quot; &quot;registro&quot;.&quot;mviadis&quot;
+                                       ^ in C:\laragon\www\PROGRAMA\system\Database\Postgre\Connection.php:206
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 206)
+#1 C:\laragon\www\PROGRAMA\system\Database\Postgre\Connection.php(206): pg_query(Object(PgSql\Connection), 'SELECT *\nFROM "...')
+#2 C:\laragon\www\PROGRAMA\system\Database\BaseConnection.php(734): CodeIgniter\Database\Postgre\Connection->execute('SELECT *\nFROM "...')
+#3 C:\laragon\www\PROGRAMA\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM "...')
+#4 C:\laragon\www\PROGRAMA\system\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#5 C:\laragon\www\PROGRAMA\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\laragon\www\PROGRAMA\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#7 C:\laragon\www\PROGRAMA\app\Models\viasModel\viasModelo.php(56): CodeIgniter\BaseModel->first()
+#8 C:\laragon\www\PROGRAMA\app\Controllers\viasController\ViasControlador.php(56): App\Models\viasModel\viasModelo->InsertarNuevaVia(Array)
+#9 C:\laragon\www\PROGRAMA\system\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->InsertarVia()
+#10 C:\laragon\www\PROGRAMA\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+#11 C:\laragon\www\PROGRAMA\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\PROGRAMA\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\PROGRAMA\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\laragon\www\PROGRAMA\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-09-14 22:59:10 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 2: FROM &quot;select * from&quot; &quot;registro&quot;.&quot;mviadis&quot;
+                                       ^
+[Method: POST, Route: InsertarVia]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "select * from" "registro"."mviadis"
+ORDER BY "idsigma" DESC
+ LIMIT 1', [], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\viasModel\viasModelo.php(56): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\viasController\ViasControlador.php(56): App\Models\viasModel\viasModelo->InsertarNuevaVia([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->InsertarVia()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-14 22:59:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 2: FROM &quot;select * from&quot; &quot;registro&quot;.&quot;mviadis&quot;
+                                       ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 211.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "select * from" "registro"."mviadis"
+ORDER BY "idsigma" DESC
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "select * from" "registro"."mviadis"
+ORDER BY "idsigma" DESC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "select * from" "registro"."mviadis"
+ORDER BY "idsigma" DESC
+ LIMIT 1', [], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Models\viasModel\viasModelo.php(56): CodeIgniter\BaseModel->first()
+ 7 APPPATH\Controllers\viasController\ViasControlador.php(56): App\Models\viasModel\viasModelo->InsertarNuevaVia([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->InsertarVia()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-14 22:59:10 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 2: FROM &quot;select * from&quot; &quot;registro&quot;.&quot;mviadis&quot;
+                                       ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 206.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «.»
+LINE 2: FROM &quot;select * from&quot; &quot;registro&quot;.&quot;mviadis&quot;
+                                       ^', 'C:\\laragon\\www\\PROGRAMA\\system\\Database\\Postgre\\Connection.php', 206)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(206): pg_query(Object(PgSql\Connection), 'SELECT *
+FROM "select * from" "registro"."mviadis"
+ORDER BY "idsigma" DESC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\Postgre\Connection->execute('SELECT *
+FROM "select * from" "registro"."mviadis"
+ORDER BY "idsigma" DESC
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM "select * from" "registro"."mviadis"
+ORDER BY "idsigma" DESC
+ LIMIT 1')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1636): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "select * from" "registro"."mviadis"
+ORDER BY "idsigma" DESC
+ LIMIT 1', [], false)
+ 6 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 8 APPPATH\Models\viasModel\viasModelo.php(56): CodeIgniter\BaseModel->first()
+ 9 APPPATH\Controllers\viasController\ViasControlador.php(56): App\Models\viasModel\viasModelo->InsertarNuevaVia([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->InsertarVia()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-14 23:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 23:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-14 23:00:47 --> Error: Call to undefined function App\Models\viasModel\srt_pad()
+[Method: POST, Route: InsertarVia]
+in APPPATH\Models\viasModel\viasModelo.php on line 60.
+ 1 APPPATH\Controllers\viasController\ViasControlador.php(56): App\Models\viasModel\viasModelo->InsertarNuevaVia([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->InsertarVia()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-14 23:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 23:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-14 23:02:25 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo timestamp: «1996»
+LINE 1: ...gma&quot;, &quot;ccodvia&quot;) VALUES ('1000000080', 'GAMARRA', '1996', '1...
+                                                             ^ in C:\laragon\www\PROGRAMA\system\Database\Postgre\Connection.php:206
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 206)
+#1 C:\laragon\www\PROGRAMA\system\Database\Postgre\Connection.php(206): pg_query(Object(PgSql\Connection), 'INSERT INTO "re...')
+#2 C:\laragon\www\PROGRAMA\system\Database\BaseConnection.php(734): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "re...')
+#3 C:\laragon\www\PROGRAMA\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "re...')
+#4 C:\laragon\www\PROGRAMA\system\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO "re...', Array, false)
+#5 C:\laragon\www\PROGRAMA\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#6 C:\laragon\www\PROGRAMA\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#7 C:\laragon\www\PROGRAMA\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\laragon\www\PROGRAMA\app\Models\viasModel\viasModelo.php(65): CodeIgniter\Model->insert(Array, false)
+#9 C:\laragon\www\PROGRAMA\app\Controllers\viasController\ViasControlador.php(56): App\Models\viasModel\viasModelo->InsertarNuevaVia(Array)
+#10 C:\laragon\www\PROGRAMA\system\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->InsertarVia()
+#11 C:\laragon\www\PROGRAMA\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+#12 C:\laragon\www\PROGRAMA\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\laragon\www\PROGRAMA\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#14 C:\laragon\www\PROGRAMA\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#15 C:\laragon\www\PROGRAMA\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#16 {main}
+CRITICAL - 2024-09-14 23:02:25 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo timestamp: «1996»
+LINE 1: ...gma&quot;, &quot;ccodvia&quot;) VALUES ('1000000080', 'GAMARRA', '1996', '1...
+                                                             ^
+[Method: POST, Route: InsertarVia]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO "registro"."mviadis" ("ctipvia", "vnombre", "dfecdes", "dfechas", "nestado", "vhostnm", "vusernm", "ddatetm", "idsigma", "ccodvia") VALUES (:ctipvia:, :vnombre:, :dfecdes:, :dfechas:, :nestado:, :vhostnm:, :vusernm:, :ddatetm:, :idsigma:, :ccodvia:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 APPPATH\Models\viasModel\viasModelo.php(65): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\viasController\ViasControlador.php(56): App\Models\viasModel\viasModelo->InsertarNuevaVia([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->InsertarVia()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-14 23:02:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo timestamp: «1996»
+LINE 1: ...gma&quot;, &quot;ccodvia&quot;) VALUES ('1000000080', 'GAMARRA', '1996', '1...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 211.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "registro"."mviadis" ("ctipvia", "vnombre", "dfecdes", "dfechas", "nestado", "vhostnm", "vusernm", "ddatetm", "idsigma", "ccodvia") VALUES (\'1000000080\', \'GAMARRA\', \'1996\', \'1996\', 1, \'::1\', \'MCRISTOBAL\', \'2024-09-14 23:02:25\', \'0000000455\', \'0000000455\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "registro"."mviadis" ("ctipvia", "vnombre", "dfecdes", "dfechas", "nestado", "vhostnm", "vusernm", "ddatetm", "idsigma", "ccodvia") VALUES (\'1000000080\', \'GAMARRA\', \'1996\', \'1996\', 1, \'::1\', \'MCRISTOBAL\', \'2024-09-14 23:02:25\', \'0000000455\', \'0000000455\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO "registro"."mviadis" ("ctipvia", "vnombre", "dfecdes", "dfechas", "nestado", "vhostnm", "vusernm", "ddatetm", "idsigma", "ccodvia") VALUES (:ctipvia:, :vnombre:, :dfecdes:, :dfechas:, :nestado:, :vhostnm:, :vusernm:, :ddatetm:, :idsigma:, :ccodvia:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 APPPATH\Models\viasModel\viasModelo.php(65): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\viasController\ViasControlador.php(56): App\Models\viasModel\viasModelo->InsertarNuevaVia([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->InsertarVia()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-14 23:02:25 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo timestamp: «1996»
+LINE 1: ...gma&quot;, &quot;ccodvia&quot;) VALUES ('1000000080', 'GAMARRA', '1996', '1...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 206.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo timestamp: «1996»
+LINE 1: ...gma&quot;, &quot;ccodvia&quot;) VALUES (\'1000000080\', \'GAMARRA\', \'1996\', \'1...
+                                                             ^', 'C:\\laragon\\www\\PROGRAMA\\system\\Database\\Postgre\\Connection.php', 206)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(206): pg_query(Object(PgSql\Connection), 'INSERT INTO "registro"."mviadis" ("ctipvia", "vnombre", "dfecdes", "dfechas", "nestado", "vhostnm", "vusernm", "ddatetm", "idsigma", "ccodvia") VALUES (\'1000000080\', \'GAMARRA\', \'1996\', \'1996\', 1, \'::1\', \'MCRISTOBAL\', \'2024-09-14 23:02:25\', \'0000000455\', \'0000000455\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "registro"."mviadis" ("ctipvia", "vnombre", "dfecdes", "dfechas", "nestado", "vhostnm", "vusernm", "ddatetm", "idsigma", "ccodvia") VALUES (\'1000000080\', \'GAMARRA\', \'1996\', \'1996\', 1, \'::1\', \'MCRISTOBAL\', \'2024-09-14 23:02:25\', \'0000000455\', \'0000000455\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "registro"."mviadis" ("ctipvia", "vnombre", "dfecdes", "dfechas", "nestado", "vhostnm", "vusernm", "ddatetm", "idsigma", "ccodvia") VALUES (\'1000000080\', \'GAMARRA\', \'1996\', \'1996\', 1, \'::1\', \'MCRISTOBAL\', \'2024-09-14 23:02:25\', \'0000000455\', \'0000000455\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2332): CodeIgniter\Database\BaseConnection->query('INSERT INTO "registro"."mviadis" ("ctipvia", "vnombre", "dfecdes", "dfechas", "nestado", "vhostnm", "vusernm", "ddatetm", "idsigma", "ccodvia") VALUES (:ctipvia:, :vnombre:, :dfecdes:, :dfechas:, :nestado:, :vhostnm:, :vusernm:, :ddatetm:, :idsigma:, :ccodvia:)', [...], false)
+ 6 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 9 APPPATH\Models\viasModel\viasModelo.php(65): CodeIgniter\Model->insert([...], false)
+10 APPPATH\Controllers\viasController\ViasControlador.php(56): App\Models\viasModel\viasModelo->InsertarNuevaVia([...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->InsertarVia()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-14 23:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 23:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-14 23:05:24 --> ErrorException: pg_query(): Query failed: ERROR:  lastval no está definido en esta sesión in C:\laragon\www\PROGRAMA\system\Database\Postgre\Connection.php:206
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 206)
+#1 C:\laragon\www\PROGRAMA\system\Database\Postgre\Connection.php(206): pg_query(Object(PgSql\Connection), 'SELECT LASTVAL(...')
+#2 C:\laragon\www\PROGRAMA\system\Database\BaseConnection.php(734): CodeIgniter\Database\Postgre\Connection->execute('SELECT LASTVAL(...')
+#3 C:\laragon\www\PROGRAMA\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT LASTVAL(...')
+#4 C:\laragon\www\PROGRAMA\system\Database\Postgre\Connection.php(501): CodeIgniter\Database\BaseConnection->query('SELECT LASTVAL(...')
+#5 C:\laragon\www\PROGRAMA\system\Model.php(399): CodeIgniter\Database\Postgre\Connection->insertID()
+#6 C:\laragon\www\PROGRAMA\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#7 C:\laragon\www\PROGRAMA\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#8 C:\laragon\www\PROGRAMA\app\Models\viasModel\viasModelo.php(65): CodeIgniter\Model->insert(Array, false)
+#9 C:\laragon\www\PROGRAMA\app\Controllers\viasController\ViasControlador.php(56): App\Models\viasModel\viasModelo->InsertarNuevaVia(Array)
+#10 C:\laragon\www\PROGRAMA\system\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->InsertarVia()
+#11 C:\laragon\www\PROGRAMA\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+#12 C:\laragon\www\PROGRAMA\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\laragon\www\PROGRAMA\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#14 C:\laragon\www\PROGRAMA\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#15 C:\laragon\www\PROGRAMA\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#16 {main}
+CRITICAL - 2024-09-14 23:05:24 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  lastval no está definido en esta sesión
+[Method: POST, Route: InsertarVia]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\Postgre\Connection.php(501): CodeIgniter\Database\BaseConnection->query('SELECT LASTVAL() AS ins_id')
+ 2 SYSTEMPATH\Model.php(399): CodeIgniter\Database\Postgre\Connection->insertID()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 APPPATH\Models\viasModel\viasModelo.php(65): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\viasController\ViasControlador.php(56): App\Models\viasModel\viasModelo->InsertarNuevaVia([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->InsertarVia()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-14 23:05:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  lastval no está definido en esta sesión
+in SYSTEMPATH\Database\Postgre\Connection.php on line 211.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\Postgre\Connection->execute('SELECT LASTVAL() AS ins_id')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT LASTVAL() AS ins_id')
+ 3 SYSTEMPATH\Database\Postgre\Connection.php(501): CodeIgniter\Database\BaseConnection->query('SELECT LASTVAL() AS ins_id')
+ 4 SYSTEMPATH\Model.php(399): CodeIgniter\Database\Postgre\Connection->insertID()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 APPPATH\Models\viasModel\viasModelo.php(65): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\viasController\ViasControlador.php(56): App\Models\viasModel\viasModelo->InsertarNuevaVia([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->InsertarVia()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-14 23:05:24 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  lastval no está definido en esta sesión
+in SYSTEMPATH\Database\Postgre\Connection.php on line 206.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  lastval no está definido en esta sesión', 'C:\\laragon\\www\\PROGRAMA\\system\\Database\\Postgre\\Connection.php', 206)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(206): pg_query(Object(PgSql\Connection), 'SELECT LASTVAL() AS ins_id')
+ 3 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\Postgre\Connection->execute('SELECT LASTVAL() AS ins_id')
+ 4 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT LASTVAL() AS ins_id')
+ 5 SYSTEMPATH\Database\Postgre\Connection.php(501): CodeIgniter\Database\BaseConnection->query('SELECT LASTVAL() AS ins_id')
+ 6 SYSTEMPATH\Model.php(399): CodeIgniter\Database\Postgre\Connection->insertID()
+ 7 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 9 APPPATH\Models\viasModel\viasModelo.php(65): CodeIgniter\Model->insert([...], false)
+10 APPPATH\Controllers\viasController\ViasControlador.php(56): App\Models\viasModel\viasModelo->InsertarNuevaVia([...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->InsertarVia()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-14 23:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 23:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 23:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-09-14 23:07:21 --> ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «desc»
+LINE 4: ...                               on m.ctipvia = p.idsigma desc
+                                                                   ^ in C:\laragon\www\PROGRAMA\system\Database\Postgre\Connection.php:206
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 206)
+#1 C:\laragon\www\PROGRAMA\system\Database\Postgre\Connection.php(206): pg_query(Object(PgSql\Connection), 'select m.idsigm...')
+#2 C:\laragon\www\PROGRAMA\system\Database\BaseConnection.php(734): CodeIgniter\Database\Postgre\Connection->execute('select m.idsigm...')
+#3 C:\laragon\www\PROGRAMA\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select m.idsigm...')
+#4 C:\laragon\www\PROGRAMA\app\Models\viasModel\viasModelo.php(12): CodeIgniter\Database\BaseConnection->query('select m.idsigm...')
+#5 C:\laragon\www\PROGRAMA\app\Controllers\viasController\ViasControlador.php(15): App\Models\viasModel\viasModelo->ListarVias()
+#6 C:\laragon\www\PROGRAMA\system\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->Vias()
+#7 C:\laragon\www\PROGRAMA\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+#8 C:\laragon\www\PROGRAMA\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\PROGRAMA\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\PROGRAMA\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\PROGRAMA\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-09-14 23:07:21 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «desc»
+LINE 4: ...                               on m.ctipvia = p.idsigma desc
+                                                                   ^
+[Method: GET, Route: vias]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\viasModel\viasModelo.php(12): CodeIgniter\Database\BaseConnection->query('select m.idsigma as codigo,P.vobserv as tipo_via,m.vnombre as via, concat(p.vobserv ,\'  \', m.vnombre) as nombre_via,date_part(\'year\',m.dfecdes) as desde,
+                                date_part (\'year\',m.dfechas)  as hasta , m.nestado  as estado from registro.mviadis m 
+                                inner join public.mconten p
+                                on m.ctipvia = p.idsigma desc')
+ 2 APPPATH\Controllers\viasController\ViasControlador.php(15): App\Models\viasModel\viasModelo->ListarVias()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->Vias()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-14 23:07:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «desc»
+LINE 4: ...                               on m.ctipvia = p.idsigma desc
+                                                                   ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 211.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\Postgre\Connection->execute('select m.idsigma as codigo,P.vobserv as tipo_via,m.vnombre as via, concat(p.vobserv ,\'  \', m.vnombre) as nombre_via,date_part(\'year\',m.dfecdes) as desde,
+                                date_part (\'year\',m.dfechas)  as hasta , m.nestado  as estado from registro.mviadis m 
+                                inner join public.mconten p
+                                on m.ctipvia = p.idsigma desc')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select m.idsigma as codigo,P.vobserv as tipo_via,m.vnombre as via, concat(p.vobserv ,\'  \', m.vnombre) as nombre_via,date_part(\'year\',m.dfecdes) as desde,
+                                date_part (\'year\',m.dfechas)  as hasta , m.nestado  as estado from registro.mviadis m 
+                                inner join public.mconten p
+                                on m.ctipvia = p.idsigma desc')
+ 3 APPPATH\Models\viasModel\viasModelo.php(12): CodeIgniter\Database\BaseConnection->query('select m.idsigma as codigo,P.vobserv as tipo_via,m.vnombre as via, concat(p.vobserv ,\'  \', m.vnombre) as nombre_via,date_part(\'year\',m.dfecdes) as desde,
+                                date_part (\'year\',m.dfechas)  as hasta , m.nestado  as estado from registro.mviadis m 
+                                inner join public.mconten p
+                                on m.ctipvia = p.idsigma desc')
+ 4 APPPATH\Controllers\viasController\ViasControlador.php(15): App\Models\viasModel\viasModelo->ListarVias()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->Vias()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-14 23:07:21 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «desc»
+LINE 4: ...                               on m.ctipvia = p.idsigma desc
+                                                                   ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 206.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «desc»
+LINE 4: ...                               on m.ctipvia = p.idsigma desc
+                                                                   ^', 'C:\\laragon\\www\\PROGRAMA\\system\\Database\\Postgre\\Connection.php', 206)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(206): pg_query(Object(PgSql\Connection), 'select m.idsigma as codigo,P.vobserv as tipo_via,m.vnombre as via, concat(p.vobserv ,\'  \', m.vnombre) as nombre_via,date_part(\'year\',m.dfecdes) as desde,
+                                date_part (\'year\',m.dfechas)  as hasta , m.nestado  as estado from registro.mviadis m 
+                                inner join public.mconten p
+                                on m.ctipvia = p.idsigma desc')
+ 3 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\Postgre\Connection->execute('select m.idsigma as codigo,P.vobserv as tipo_via,m.vnombre as via, concat(p.vobserv ,\'  \', m.vnombre) as nombre_via,date_part(\'year\',m.dfecdes) as desde,
+                                date_part (\'year\',m.dfechas)  as hasta , m.nestado  as estado from registro.mviadis m 
+                                inner join public.mconten p
+                                on m.ctipvia = p.idsigma desc')
+ 4 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('select m.idsigma as codigo,P.vobserv as tipo_via,m.vnombre as via, concat(p.vobserv ,\'  \', m.vnombre) as nombre_via,date_part(\'year\',m.dfecdes) as desde,
+                                date_part (\'year\',m.dfechas)  as hasta , m.nestado  as estado from registro.mviadis m 
+                                inner join public.mconten p
+                                on m.ctipvia = p.idsigma desc')
+ 5 APPPATH\Models\viasModel\viasModelo.php(12): CodeIgniter\Database\BaseConnection->query('select m.idsigma as codigo,P.vobserv as tipo_via,m.vnombre as via, concat(p.vobserv ,\'  \', m.vnombre) as nombre_via,date_part(\'year\',m.dfecdes) as desde,
+                                date_part (\'year\',m.dfechas)  as hasta , m.nestado  as estado from registro.mviadis m 
+                                inner join public.mconten p
+                                on m.ctipvia = p.idsigma desc')
+ 6 APPPATH\Controllers\viasController\ViasControlador.php(15): App\Models\viasModel\viasModelo->ListarVias()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\viasController\ViasControlador->Vias()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\viasController\ViasControlador))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-14 23:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 23:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 23:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 23:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 23:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 23:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 23:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 23:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 23:46:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 23:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 23:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 23:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 23:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 23:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 23:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 23:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 23:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 23:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 23:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 23:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 23:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 23:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 23:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 23:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-14 23:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

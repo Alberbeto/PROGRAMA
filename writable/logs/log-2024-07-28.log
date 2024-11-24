@@ -1,0 +1,88 @@
+ERROR - 2024-07-28 22:26:35 --> Error connecting to the database: Error: Undefined constant "CodeIgniter\Database\SQLSRV\SQLSRV_ENC_CHAR" in C:\laragon\www\PROGRAMA\system\Database\SQLSRV\Connection.php:108
+Stack trace:
+#0 C:\laragon\www\PROGRAMA\system\Database\BaseConnection.php(421): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\laragon\www\PROGRAMA\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\PROGRAMA\app\Models\homeModel.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM C...')
+#3 C:\laragon\www\PROGRAMA\app\Controllers\Clientes.php(36): App\Models\homeModel->clientes_list()
+#4 C:\laragon\www\PROGRAMA\system\CodeIgniter.php(933): App\Controllers\Clientes->indexu()
+#5 C:\laragon\www\PROGRAMA\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#6 C:\laragon\www\PROGRAMA\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\PROGRAMA\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\PROGRAMA\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\laragon\www\PROGRAMA\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+CRITICAL - 2024-07-28 22:26:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [sqlsrv]: Undefined constant "CodeIgniter\Database\SQLSRV\SQLSRV_ENC_CHAR"
+[Method: GET, Route: conexion]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\homeModel.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM Clientes;')
+ 3 APPPATH\Controllers\Clientes.php(36): App\Models\homeModel->clientes_list()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->indexu()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-07-28 22:39:14 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «clientes»
+LINE 1: SELECT * FROM Clientes;
+                      ^ in C:\laragon\www\PROGRAMA\system\Database\Postgre\Connection.php:206
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\laragon\\www\\...', 206)
+#1 C:\laragon\www\PROGRAMA\system\Database\Postgre\Connection.php(206): pg_query(Object(PgSql\Connection), 'SELECT * FROM C...')
+#2 C:\laragon\www\PROGRAMA\system\Database\BaseConnection.php(734): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM C...')
+#3 C:\laragon\www\PROGRAMA\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM C...')
+#4 C:\laragon\www\PROGRAMA\app\Models\homeModel.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM C...')
+#5 C:\laragon\www\PROGRAMA\app\Controllers\Clientes.php(36): App\Models\homeModel->clientes_list()
+#6 C:\laragon\www\PROGRAMA\system\CodeIgniter.php(933): App\Controllers\Clientes->indexu()
+#7 C:\laragon\www\PROGRAMA\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#8 C:\laragon\www\PROGRAMA\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\PROGRAMA\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\PROGRAMA\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\laragon\www\PROGRAMA\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-07-28 22:39:14 --> CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  no existe la relación «clientes»
+LINE 1: SELECT * FROM Clientes;
+                      ^
+[Method: GET, Route: conexion]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\homeModel.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM Clientes;')
+ 2 APPPATH\Controllers\Clientes.php(36): App\Models\homeModel->clientes_list()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->indexu()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-28 22:39:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: pg_query(): Query failed: ERROR:  no existe la relación «clientes»
+LINE 1: SELECT * FROM Clientes;
+                      ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 211.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM Clientes;')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM Clientes;')
+ 3 APPPATH\Models\homeModel.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM Clientes;')
+ 4 APPPATH\Controllers\Clientes.php(36): App\Models\homeModel->clientes_list()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->indexu()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-28 22:39:14 --> [Caused by] ErrorException: pg_query(): Query failed: ERROR:  no existe la relación «clientes»
+LINE 1: SELECT * FROM Clientes;
+                      ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 206.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la relación «clientes»
+LINE 1: SELECT * FROM Clientes;
+                      ^', 'C:\\laragon\\www\\PROGRAMA\\system\\Database\\Postgre\\Connection.php', 206)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(206): pg_query(Object(PgSql\Connection), 'SELECT * FROM Clientes;')
+ 3 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM Clientes;')
+ 4 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM Clientes;')
+ 5 APPPATH\Models\homeModel.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM Clientes;')
+ 6 APPPATH\Controllers\Clientes.php(36): App\Models\homeModel->clientes_list()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Clientes->indexu()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
